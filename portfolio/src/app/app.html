@@ -1,9 +1,11 @@
-<div class="min-h-screen flex flex-col bg-gradient-to-b from-black via-gray-900 to-black text-white">
-  <!-- <app-navbar></app-navbar> -->
+<div class="min-h-screen flex bg-gradient-to-b from-black via-gray-900 to-black text-white">
 
-  <div class="flex-grow flex justify-center items-center pt-6 ">
+  <!-- Sidebar -->
+  <app-navbar></app-navbar>
+
+  <!-- Contenido -->
+  <main class="flex-1 ml-64 flex justify-center items-center p-6">
     <router-outlet></router-outlet>
-  </div>
+  </main>
 
-  <!-- <app-footer></app-footer> -->
 </div>
