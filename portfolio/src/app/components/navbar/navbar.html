@@ -1,43 +1,39 @@
-<nav class="fixed top-0 left-0 h-screen w-56 bg-zinc-950 border-r border-zinc-800 flex flex-col px-6 py-8 shadow-2xl">
+<!-- Botón hamburguesa (solo mobile) -->
+<button (click)="isOpen = !isOpen"
+    class="fixed top-4 left-4 z-50 lg:hidden p-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-300">
+    ☰
+</button>
 
-    <a
-        class="text-3xl font-bold mb-12 tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-500">
+<!-- Overlay (mobile) -->
+@if (isOpen) {
+<div (click)="isOpen = false" class="fixed inset-0 bg-black/60 z-40 lg:hidden">
+</div>
+}
+
+<!-- Sidebar -->
+<nav class="fixed top-0 left-0 h-screen w-56 bg-zinc-950 border-r border-zinc-800
+         flex flex-col px-6 py-8 shadow-2xl
+         transform transition-transform duration-300 z-50
+         lg:translate-x-0" [ngClass]="{
+    '-translate-x-full': !isOpen,
+    'translate-x-0': isOpen
+  }">
+
+    <a class="text-3xl font-bold mb-12 tracking-wide text-transparent bg-clip-text
+           bg-gradient-to-r from-indigo-500 to-purple-500">
         PortFolio
     </a>
 
     <ul class="flex flex-col gap-2">
+        @for (item of menu; track item.link) {
         <li>
-            <a routerLink="/home" routerLinkActive="text-indigo-400 bg-indigo-600/10 font-medium"
-                class="block px-4 py-3 rounded-xl text-zinc-400 hover:text-indigo-300 hover:bg-zinc-900 transition-all duration-200">
-                Inicio
+            <a [routerLink]="item.link" routerLinkActive="text-indigo-400 bg-indigo-600/10 font-medium"
+                (click)="isOpen = false" class="block px-4 py-3 rounded-xl text-zinc-400
+                   hover:text-indigo-300 hover:bg-zinc-900
+                   transition-all duration-200">
+                {{ item.label }}
             </a>
         </li>
-
-        <li>
-            <a routerLink="/projects" routerLinkActive="text-indigo-400 bg-indigo-600/10 font-medium"
-                class="block px-4 py-3 rounded-xl text-zinc-400 hover:text-indigo-300 hover:bg-zinc-900 transition-all duration-200">
-                Proyectos
-            </a>
-        </li>
-
-        <li>
-            <a routerLink="/education" routerLinkActive="text-indigo-400 bg-indigo-600/10 font-medium"
-                class="block px-4 py-3 rounded-xl text-zinc-400 hover:text-indigo-300 hover:bg-zinc-900 transition-all duration-200">
-                Educación
-            </a>
-        </li>
-        <li>
-            <a routerLink="/experience" routerLinkActive="text-indigo-400 bg-indigo-600/10 font-medium"
-                class="block px-4 py-3 rounded-xl text-zinc-400 hover:text-indigo-300 hover:bg-zinc-900 transition-all duration-200">
-                Experiencia
-            </a>
-        </li>
-
-        <li>
-            <a routerLink="/contact" routerLinkActive="text-indigo-400 bg-indigo-600/10 font-medium"
-                class="block px-4 py-3 rounded-xl text-zinc-400 hover:text-indigo-300 hover:bg-zinc-900 transition-all duration-200">
-                Contacto
-            </a>
-        </li>
+        }
     </ul>
 </nav>
