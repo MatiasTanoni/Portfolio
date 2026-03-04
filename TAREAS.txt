@@ -1,0 +1,10 @@
+-Repo imágenes sala de juegos
+-Reactivar bd de la sala de juegos en supabase para poder grabar
+-Video YouTube sala de juegos
+-Video YouTube Red Social.
+-agregar el certificado del first en educación
+-Deploy en render.
+-----------
+DESPUES DE HABER TERMINADO TODO LO BASICO:
+-un login para admin (solo para mí)
+-en admin page estadisticas
