@@ -1,0 +1,10 @@
+-Repo Sala de juegos (imagenes)
+-Levantar DB de sala de juegos para poder grabar
+-Grabar video YouTube sala de juegos
+-Grabar video YouTube red social.
+-certificado first agregar.
+-deploy en render
+-------------------------
+DESPUES DE TERMINAR LO BASICO
+-Login para admin (solo para mi)
+-page estadísticas para admin
