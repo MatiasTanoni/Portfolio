@@ -1,6 +1,4 @@
--Repo Sala de juegos (imagenes)
--Levantar DB de sala de juegos para poder grabar
--Grabar video YouTube sala de juegos
+-Grabar video YouTube sala de juegos (no pude no funciona bien la bd)
 -Grabar video YouTube red social.
 -certificado first agregar.
 -deploy en render
