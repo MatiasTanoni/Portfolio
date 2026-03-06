@@ -1,7 +1,7 @@
 -Grabar video YouTube sala de juegos (no pude no funciona bien la bd)
--Grabar video YouTube red social.
 -certificado first agregar.
 -deploy en render
+
 -------------------------
 DESPUES DE TERMINAR LO BASICO
 -Login para admin (solo para mi)
