@@ -12,7 +12,7 @@ export class Navbar {
   isOpen = false;
 
   menu = [
-    { label: 'Inicio', link: '/' },
+    { label: 'Inicio', link: '/home' },
     { label: 'Proyectos', link: '/projects' },
     { label: 'Educación', link: '/education' },
     { label: 'Experiencia', link: '/experience' },
