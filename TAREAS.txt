@@ -1,6 +1,4 @@
 -certificado first agregar.
 -video portfolio 
--------------------------
-DESPUES DE TERMINAR LO BASICO
--Login para admin (solo para mi)
--page estadísticas para admin
+-el login con localstorage
+-stats con Google analystics
