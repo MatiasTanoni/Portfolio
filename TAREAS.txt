@@ -1,4 +1,5 @@
 -certificado first agregar.
+-video portfolio 
 -------------------------
 DESPUES DE TERMINAR LO BASICO
 -Login para admin (solo para mi)
