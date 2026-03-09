@@ -1,22 +1,23 @@
-<div class="flex justify-center p-8">
+<div class="flex justify-center p-4 sm:p-8">
     <div
-        class="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-8 lg:p-12 max-w-5xl w-full shadow-2xl hover:-translate-y-1 transition-transform duration-300">
+        class="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-5 sm:p-8 lg:p-12 max-w-5xl w-full shadow-2xl hover:-translate-y-1 transition-transform duration-300">
 
-        <div class="text-center mb-10">
-            <h2 class="text-3xl font-bold text-white mb-4 border-b border-zinc-800 pb-4 inline-block">
+        <div class="text-center mb-8 sm:mb-10">
+            <h2
+                class="text-2xl sm:text-3xl font-bold text-white mb-3 sm:mb-4 border-b border-zinc-800 pb-3 sm:pb-4 inline-block">
                 Proyectos Destacados
             </h2>
-            <p class="text-zinc-400 text-sm mt-2">
+            <p class="text-zinc-400 text-xs sm:text-sm mt-2 px-2">
                 Una selección de mis trabajos más recientes como Desarrollador Full Stack, utilizando tecnologías
                 robustas como Angular, NestJS y .NET.
             </p>
         </div>
 
         <div
-            class="flex gap-6 overflow-x-auto pb-6 pt-2 snap-x snap-mandatory [&::-webkit-scrollbar]:h-2 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-zinc-800/50 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-zinc-600 hover:[&::-webkit-scrollbar-thumb]:bg-indigo-500 transition-colors">
+            class="flex flex-col md:flex-row gap-6 md:overflow-x-auto pb-6 pt-2 md:snap-x md:snap-mandatory [&::-webkit-scrollbar]:h-2 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-zinc-800/50 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-zinc-600 hover:[&::-webkit-scrollbar-thumb]:bg-indigo-500 transition-colors">
 
             <div
-                class="group relative flex flex-col bg-zinc-800/30 border border-zinc-700 rounded-xl overflow-hidden hover:border-purple-500/50 transition-all duration-300 flex-shrink-0 w-[85vw] md:w-[calc(50%-12px)] snap-start">
+                class="group relative flex flex-col bg-zinc-800/30 border border-zinc-700 rounded-xl overflow-hidden hover:border-purple-500/50 transition-all duration-300 w-full md:w-[calc(50%-12px)] md:flex-shrink-0 md:snap-start">
 
                 <div class="h-48 w-full overflow-hidden bg-zinc-800">
                     <img src="publicaciones.png" alt="Preview App Redes Sociales"
@@ -41,7 +42,7 @@
                     <div class="flex gap-3 mt-auto pt-4 border-t border-zinc-800">
                         <a href="https://github.com/MatiasTanoni/Red-Social.git" target="_blank"
                             rel="noopener noreferrer"
-                            class="flex items-center gap-2 text-sm font-medium text-zinc-300 hover:text-white bg-zinc-800 hover:bg-zinc-700 px-3 py-2 rounded-lg transition-colors border border-zinc-700">
+                            class="flex-1 flex justify-center items-center gap-2 text-sm font-medium text-zinc-300 hover:text-white bg-zinc-800 hover:bg-zinc-700 px-3 py-2 rounded-lg transition-colors border border-zinc-700">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path fill-rule="evenodd"
                                     d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
@@ -51,7 +52,7 @@
                         </a>
                         <a href="https://www.youtube.com/watch?v=85NC4xmmAls&t=2s" target="_blank"
                             rel="noopener noreferrer"
-                            class="flex items-center gap-2 text-sm font-medium text-zinc-300 hover:text-white bg-zinc-800 hover:bg-zinc-700 px-3 py-2 rounded-lg transition-colors border border-zinc-700">
+                            class="flex-1 flex justify-center items-center gap-2 text-sm font-medium text-zinc-300 hover:text-white bg-zinc-800 hover:bg-zinc-700 px-3 py-2 rounded-lg transition-colors border border-zinc-700">
                             <svg class="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 24 24"
                                 aria-hidden="true">
                                 <path
@@ -64,7 +65,7 @@
             </div>
 
             <div
-                class="group relative flex flex-col bg-zinc-800/30 border border-zinc-700 rounded-xl overflow-hidden hover:border-purple-500/50 transition-all duration-300 flex-shrink-0 w-[85vw] md:w-[calc(50%-12px)] snap-start">
+                class="group relative flex flex-col bg-zinc-800/30 border border-zinc-700 rounded-xl overflow-hidden hover:border-purple-500/50 transition-all duration-300 w-full md:w-[calc(50%-12px)] md:flex-shrink-0 md:snap-start">
 
                 <div class="h-48 w-full overflow-hidden bg-zinc-800 flex items-center justify-center">
                     <img src="imagenElSuperviviente.png" alt="Preview El Superviviente"
@@ -88,7 +89,7 @@
                     <div class="flex gap-3 mt-auto pt-4 border-t border-zinc-800">
                         <a href="https://github.com/MatiasTanoni/ElSuperviviente.git" target="_blank"
                             rel="noopener noreferrer"
-                            class="flex items-center gap-2 text-sm font-medium text-zinc-300 hover:text-white bg-zinc-800 hover:bg-zinc-700 px-3 py-2 rounded-lg transition-colors border border-zinc-700">
+                            class="flex-1 flex justify-center items-center gap-2 text-sm font-medium text-zinc-300 hover:text-white bg-zinc-800 hover:bg-zinc-700 px-3 py-2 rounded-lg transition-colors border border-zinc-700">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path fill-rule="evenodd"
                                     d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
@@ -97,7 +98,7 @@
                             Repositorio
                         </a>
                         <a href="https://www.youtube.com/watch?v=nchF3cj7k4s" target="_blank" rel="noopener noreferrer"
-                            class="flex items-center gap-2 text-sm font-medium text-zinc-300 hover:text-white bg-zinc-800 hover:bg-zinc-700 px-3 py-2 rounded-lg transition-colors border border-zinc-700">
+                            class="flex-1 flex justify-center items-center gap-2 text-sm font-medium text-zinc-300 hover:text-white bg-zinc-800 hover:bg-zinc-700 px-3 py-2 rounded-lg transition-colors border border-zinc-700">
                             <svg class="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 24 24"
                                 aria-hidden="true">
                                 <path
@@ -110,7 +111,7 @@
             </div>
 
             <div
-                class="group relative flex flex-col bg-zinc-800/30 border border-zinc-700 rounded-xl overflow-hidden hover:border-purple-500/50 transition-all duration-300 flex-shrink-0 w-[85vw] md:w-[calc(50%-12px)] snap-start">
+                class="group relative flex flex-col bg-zinc-800/30 border border-zinc-700 rounded-xl overflow-hidden hover:border-purple-500/50 transition-all duration-300 w-full md:w-[calc(50%-12px)] md:flex-shrink-0 md:snap-start">
 
                 <div class="h-48 w-full overflow-hidden bg-zinc-800 flex items-center justify-center">
                     <img src="imagenCrud.png" alt="Preview CRUD Empleados"
@@ -134,7 +135,7 @@
                     <div class="flex gap-3 mt-auto pt-4 border-t border-zinc-800">
                         <a href="https://github.com/MatiasTanoni/CRUD-Empleados.git" target="_blank"
                             rel="noopener noreferrer"
-                            class="flex items-center gap-2 text-sm font-medium text-zinc-300 hover:text-white bg-zinc-800 hover:bg-zinc-700 px-3 py-2 rounded-lg transition-colors border border-zinc-700">
+                            class="flex-1 flex justify-center items-center gap-2 text-sm font-medium text-zinc-300 hover:text-white bg-zinc-800 hover:bg-zinc-700 px-3 py-2 rounded-lg transition-colors border border-zinc-700">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path fill-rule="evenodd"
                                     d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
@@ -143,7 +144,7 @@
                             Repositorio </a>
                         <a href="https://www.youtube.com/watch?v=8Hf_3bzPi84&t=1s" target="_blank"
                             rel="noopener noreferrer"
-                            class="flex items-center gap-2 text-sm font-medium text-zinc-300 hover:text-white bg-zinc-800 hover:bg-zinc-700 px-3 py-2 rounded-lg transition-colors border border-zinc-700">
+                            class="flex-1 flex justify-center items-center gap-2 text-sm font-medium text-zinc-300 hover:text-white bg-zinc-800 hover:bg-zinc-700 px-3 py-2 rounded-lg transition-colors border border-zinc-700">
                             <svg class="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 24 24"
                                 aria-hidden="true">
                                 <path
@@ -154,8 +155,9 @@
                     </div>
                 </div>
             </div>
+
             <div
-                class="group relative flex flex-col bg-zinc-800/30 border border-zinc-700 rounded-xl overflow-hidden hover:border-purple-500/50 transition-all duration-300 flex-shrink-0 w-[85vw] md:w-[calc(50%-12px)] snap-start">
+                class="group relative flex flex-col bg-zinc-800/30 border border-zinc-700 rounded-xl overflow-hidden hover:border-purple-500/50 transition-all duration-300 w-full md:w-[calc(50%-12px)] md:flex-shrink-0 md:snap-start">
 
                 <div class="h-48 w-full overflow-hidden bg-zinc-800 flex items-center justify-center">
                     <img src="inicioSalaDeJuegos.png" alt="Preview Dashboard Estadística"
@@ -179,7 +181,7 @@
                     <div class="flex gap-3 mt-auto pt-4 border-t border-zinc-800">
                         <a href="https://github.com/MatiasTanoni/Sala-de-Juegos.git" target="_blank"
                             rel="noopener noreferrer"
-                            class="flex items-center gap-2 text-sm font-medium text-zinc-300 hover:text-white bg-zinc-800 hover:bg-zinc-700 px-3 py-2 rounded-lg transition-colors border border-zinc-700">
+                            class="flex-1 flex justify-center items-center gap-2 text-sm font-medium text-zinc-300 hover:text-white bg-zinc-800 hover:bg-zinc-700 px-3 py-2 rounded-lg transition-colors border border-zinc-700">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path fill-rule="evenodd"
                                     d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
@@ -190,6 +192,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </div>

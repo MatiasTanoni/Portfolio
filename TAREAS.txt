@@ -1,6 +1,9 @@
 -Grabar video YouTube sala de juegos (no pude no funciona bien la bd)
 -certificado first agregar.
 -deploy en render
+-Bug nabvar
+-scrool en educación
+-responsive
 
 -------------------------
 DESPUES DE TERMINAR LO BASICO
