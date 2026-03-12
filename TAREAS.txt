@@ -1,4 +1,2 @@
 -certificado first agregar.
--video portfolio 
--el login con localstorage
--stats con Google analystics
+-video portfolio.
