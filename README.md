@@ -6,7 +6,7 @@ Bienvenido al repositorio de mi portfolio personal.
 
 - **Video Demostración:** [Ver en YouTube](https://www.youtube.com/watch?v=Hvv_DqMxtO0)
 - **Portfolio en Vivo:** [Visitar sitio web](https://portfolio-dr8t.onrender.com/)
-- **LinkedIn:** [Mi Perfil]([https://github.com/MatiasTanon](https://www.linkedin.com/in/matias-tanoni-7b3562241/)i)
+- **LinkedIn:** [Mi Perfil](https://www.linkedin.com/in/matias-tanoni-7b3562241/)
 
 ## 🛠️ Tecnologías Utilizadas
 
